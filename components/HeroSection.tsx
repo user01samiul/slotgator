@@ -1,12 +1,13 @@
 "use client";
 
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import { motion, Variants } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
+import Link from "next/link";
+import { FaDice, FaCoins, FaChartLine } from "react-icons/fa";
 
 export default function HeroContent() {
-  // Animation variants
+  // Enhanced animation variants
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -25,36 +26,36 @@ export default function HeroContent() {
       y: 0,
       transition: {
         duration: 0.8,
-        ease: "easeOut" as const, // Explicitly type as a valid Easing value
+        ease: [0.2, 0.65, 0.3, 0.9],
       },
     },
   };
 
   const imageVariants: Variants = {
-    hidden: { opacity: 0, x: 100 },
+    hidden: { opacity: 0, x: 100, rotate: -5 },
     visible: {
       opacity: 1,
       x: 0,
+      rotate: 0,
       transition: {
-        duration: 1,
-        ease: "easeOut" as const, // Explicitly type as a valid Easing value
+        duration: 1.2,
+        ease: [0.2, 0.65, 0.3, 0.9],
       },
     },
   };
 
-  // Form state
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) {
-      setError("Email is required");
-      return;
-    }
-    setError("");
-    // Handle form submission logic here
-    console.log("Form submitted with email:", email);
+  const floatingVariants: Variants = {
+    float: {
+      y: [-10, 10],
+      transition: {
+        y: {
+          duration: 3,
+          repeat: Infinity,
+          repeatType: "reverse" as const, // Explicitly type as RepeatType
+          ease: "easeInOut",
+        },
+      },
+    },
   };
 
   return (
@@ -95,61 +96,133 @@ export default function HeroContent() {
           online casino business needs.
         </motion.p>
 
-        {/* Form */}
-        <motion.div variants={childVariants} className="mt-4 max-w-sm">
-          <div className="bg-card p-4 rounded-lg border border-border">
-            <h3 className="text-base font-semibold mb-3">
-              Fill in the form to contact us
-            </h3>
-            <div className="space-y-3">
-              <input
-                type="email"
-                placeholder="Your Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-2 rounded-md bg-input border border-border text-foreground placeholder-muted-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              {error && <p className="text-destructive text-xs">{error}</p>}
-              <button
-                onClick={handleSubmit}
-                className="w-full py-2 bg-[var(--color-button)] rounded-md text-primary-foreground font-semibold text-sm hover:bg-[#E6202D] transition-colors"
-              >
-                Free Consultation
-              </button>
-              <p className="text-xs text-muted-foreground text-center mt-2">
-                By clicking this button, you agree to our{" "}
-                <a href="#" className="underline hover:text-primary">
-                  Terms of Service
-                </a>{" "}
-                and{" "}
-                <a href="#" className="underline hover:text-primary">
-                  Privacy Policy
-                </a>
-              </p>
-            </div>
-          </div>
+        {/* Feature Icons */}
+        <motion.div 
+          variants={childVariants}
+          className="flex gap-4 mt-2"
+        >
+          <motion.div 
+            className="p-3 bg-primary/10 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            animate="float"
+            variants={floatingVariants}
+          >
+            <FaDice className="h-6 w-6 text-primary" />
+          </motion.div>
+          <motion.div 
+            className="p-3 bg-primary/10 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            animate="float"
+            variants={floatingVariants}
+            transition={{ delay: 0.2 }}
+          >
+            <FaCoins className="h-6 w-6 text-primary" />
+          </motion.div>
+          <motion.div 
+            className="p-3 bg-primary/10 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            animate="float"
+            variants={floatingVariants}
+            transition={{ delay: 0.4 }}
+          >
+            <FaChartLine className="h-6 w-6 text-primary" />
+          </motion.div>
+        </motion.div>
+
+        {/* CTA Button */}
+        <motion.div variants={childVariants} className="mt-6">
+          <Link 
+            href="/contact" 
+            className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-primary-foreground rounded-lg bg-[var(--color-button)] hover:bg-[#E6202D] transition-all duration-300"
+          >
+            <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
+            <span className="relative flex items-center gap-2">
+              Free Consultation <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
+          <p className="text-xs text-muted-foreground mt-3 max-w-xs">
+            By clicking this button, you agree to our{" "}
+            <a href="#" className="underline hover:text-primary">
+              Terms
+            </a>{" "}
+            and{" "}
+            <a href="#" className="underline hover:text-primary">
+              Privacy Policy
+            </a>
+          </p>
         </motion.div>
       </div>
 
       {/* Right Image */}
       <motion.div
         variants={imageVariants}
-        className="lg:w-1/2 flex justify-center items-center mt-8 lg:mt-0"
+        className="lg:w-1/2 flex justify-center items-center mt-8 lg:mt-0 relative"
       >
         <Image
           src="/home/heroimage.avif"
           alt="Casino platform illustration"
-          width={400}
-          height={400}
-          className="rounded-lg select-none max-w-full h-auto"
+          width={500}
+          height={500}
+          className="rounded-lg select-none max-w-full h-auto relative z-10"
           draggable={false}
+        />
+        {/* Floating decorative elements */}
+        <motion.div 
+          className="absolute -top-10 -left-10 w-32 h-32 bg-primary/10 rounded-full blur-xl z-0"
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.8, 1, 0.8]
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+        />
+        <motion.div 
+          className="absolute -bottom-10 -right-10 w-40 h-40 bg-accent/10 rounded-full blur-xl z-0"
+          animate={{
+            scale: [1, 1.3, 1],
+            opacity: [0.7, 0.9, 0.7]
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 2
+          }}
         />
       </motion.div>
 
       {/* Background Decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-accent/10 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/10 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-accent/10 rounded-full blur-3xl animate-pulse" />
+        {/* Animated floating particles */}
+        {[...Array(8)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute rounded-full bg-primary/20"
+            style={{
+              width: Math.random() * 10 + 5 + 'px',
+              height: Math.random() * 10 + 5 + 'px',
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+            }}
+            animate={{
+              y: [0, (Math.random() - 0.5) * 100],
+              x: [0, (Math.random() - 0.5) * 50],
+              opacity: [0.5, 1, 0.5],
+            }}
+            transition={{
+              duration: Math.random() * 10 + 10,
+              repeat: Infinity,
+              repeatType: "reverse" as const, // Explicitly type as RepeatType
+              ease: "easeInOut",
+              delay: Math.random() * 5,
+            }}
+          />
+        ))}
       </div>
     </motion.div>
   );

@@ -90,10 +90,10 @@ export default function Bespoke() {
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground text-left"
         >
-          Our B2B casino software and gambling solutions can help your brand take
-          its next big step. Launch your project rapidly with a powerful and
-          versatile platform fully equipped with the games and payment methods
-          your players need.
+          Our B2B casino software and gambling solutions can help your brand
+          take its next big step. Launch your project rapidly with a powerful
+          and versatile platform fully equipped with the games and payment
+          methods your players need.
         </motion.p>
       </div>
 
@@ -134,7 +134,7 @@ export default function Bespoke() {
           >
             <motion.div variants={imageVariants} className="w-full">
               <Image
-                src={card.image}
+                src={`${card.image}/asjkdh`}
                 alt={card.title}
                 width={160}
                 height={160}
