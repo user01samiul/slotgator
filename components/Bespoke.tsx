@@ -111,7 +111,7 @@ export default function Bespoke() {
           {
             title: "White Label Casino",
             description:
-              "Complete online casino platform operated under Slotegrator’s business structure.",
+              "Complete online casino platform operated under Slotgator’s business structure.",
             image:
               "https://static.slotegrator.pro/uploads/white_label_1_2x_c25ee0133c.png?f=avif&resize=160x160&q=100",
             link: "/white-label-casino",

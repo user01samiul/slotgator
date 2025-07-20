@@ -39,35 +39,35 @@ export default function Testimonials() {
   const testimonials = [
     {
       company: "PHOENIX 7",
-      quote: "We can't overstate how excited we are to partner with Slotegrator. This collaboration is going to bring our innovative slot games to an even wider audience...",
+      quote: "We can't overstate how excited we are to partner with Slotgator. This collaboration is going to bring our innovative slot games to an even wider audience...",
     },
     {
       name: "Yann Bautista",
       title: "Commercial Director and Founder",
       company: "Peter & Sons",
-      quote: "Slotegrator is a leading force in the iGaming industry, so obviously we're excited to partner with them. APIgrator is a truly cutting-edge solution...",
+      quote: "Slotgator is a leading force in the iGaming industry, so obviously we're excited to partner with them. APIgrator is a truly cutting-edge solution...",
     },
     {
       name: "Yann Bautista",
       title: "Commercial Director and Founder",
       company: "Octopus Global",
-      quote: "From the outset, collaborating with Slotegrator has been an absolute pleasure. Everyone on the team consistently demonstrates the utmost professionalism...",
+      quote: "From the outset, collaborating with Slotgator has been an absolute pleasure. Everyone on the team consistently demonstrates the utmost professionalism...",
     },
     {
       name: "Oleg Galushko",
       title: "CEO",
       company: "Formula Spin",
-      quote: "We are fully confident that our partnership with Slotegrator will help us lay the foundation for a transformative gaming experience...",
+      quote: "We are fully confident that our partnership with Slotgator will help us lay the foundation for a transformative gaming experience...",
     },
     {
       name: "Michele Morotti",
       title: "CEO",
       company: "Capecod Gaming",
-      quote: "Partnering with Slotegrator is one of the best strategic moves we've made — they're an undisputed leader in the iGaming industry...",
+      quote: "Partnering with Slotgator is one of the best strategic moves we've made — they're an undisputed leader in the iGaming industry...",
     },
     {
       company: "RiCH88",
-      quote: "We're beyond thrilled to announce our new collaboration with Slotegrator! Slotegrator is the perfect partner for distributing our easy-to-play...",
+      quote: "We're beyond thrilled to announce our new collaboration with Slotgator! Slotgator is the perfect partner for distributing our easy-to-play...",
     },
   ];
 

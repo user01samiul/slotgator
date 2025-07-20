@@ -83,14 +83,14 @@ export default function WhyChooseSlotegrator() {
         >
           Why Choose{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-            Slotegrator?
+            Slotgator?
           </span>
         </motion.h2>
         <motion.p
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground text-left"
         >
-          Slotegrator offers everything an iGaming business — both online casinos
+          Slotgator offers everything an iGaming business — both online casinos
           and sportsbooks — needs. We offer the best value for money on the
           market, providing modular and scalable solutions tailored to our
           clients’ objectives, delivered rapidly and efficiently, with ongoing

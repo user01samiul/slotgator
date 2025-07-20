@@ -103,7 +103,7 @@ export default function AboutCompany() {
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground text-left"
         >
-          Slotegrator, a leading software supplier and aggregator for online
+          Slotgator, a leading software supplier and aggregator for online
           casino and sportsbook operators, has been developing innovative business
           solutions and client-oriented business services in the gambling industry
           since 2012.

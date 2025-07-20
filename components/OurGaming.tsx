@@ -55,12 +55,12 @@ export default function OurGamingProducts() {
             link: "/apigrator",
           },
           {
-            title: "Partnergrator",
+            title: "Partnergator",
             description:
               "Our solution for affiliate management helps you track your affiliate partners’ performance with real-time analytics.",
             image:
               "https://static.slotegrator.pro/uploads/sportsbook_1_2x_f5a85e9a8e.png?f=avif&resize=160x160&q=100",
-            link: "/partnergrator",
+            link: "/partnergator",
           },
           {
             title: "Moneygrator",

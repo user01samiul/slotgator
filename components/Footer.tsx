@@ -20,11 +20,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <FaEnvelope className="text-[#FF2432] mr-3" />
-                <span>hello@slotegrator.com</span>
+                <span>hello@slotgator.com</span>
               </div>
               <div className="flex items-center">
                 <SiTelegram className="text-[#FF2432] mr-3" />
-                <span>@slotegrator_info_bot</span>
+                <span>@slotgator_info_bot</span>
               </div>
               <div className="flex items-center">
                 <FaPhone className="text-[#FF2432] mr-3" />
@@ -188,7 +188,7 @@ const Footer = () => {
             <Link href="privacy-policy" className="text-gray-400 hover:text-white transition">Privacy policy</Link>
           </div>
           <div className="text-gray-400 text-sm">
-            © 2015-2025 Slotegrator, All Rights Reserved.
+            © 2015-2025 Slotgator, All Rights Reserved.
           </div>
         </div>
       </div>

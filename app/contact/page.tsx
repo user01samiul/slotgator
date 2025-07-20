@@ -229,8 +229,8 @@ export default function ContactPage() {
                   <div className="p-2 rounded-full bg-primary/10">
                     <EnvelopeIcon className="h-5 w-5 text-primary" />
                   </div>
-                  <a href="mailto:hello@slotegrator.com" className="hover:text-primary transition-colors">
-                    hello@slotegrator.com
+                  <a href="mailto:hello@slotgator.com" className="hover:text-primary transition-colors">
+                    hello@slotgator.com
                   </a>
                 </div>
 
@@ -252,8 +252,8 @@ export default function ContactPage() {
                   <div className="p-2 rounded-full bg-primary/10">
                     <PaperAirplaneIcon className="h-5 w-5 text-primary" />
                   </div>
-                  <a href="https://t.me/slotegrator_info_bot" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    @slotegrator_info_bot
+                  <a href="https://t.me/slotgator_info_bot" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                    @slotgator_info_bot
                   </a>
                 </div>
               </div>
