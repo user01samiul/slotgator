@@ -1,556 +1,615 @@
 export const products = {
   gameaggregator: {
     heroSection: {
-      title: "APIgrator online casino game integration",
+      title: "GameVault - Enterprise Game Aggregation",
       description:
-        "Enrich your casino platform with over 30 000 certified games from over 180 licensed game developers with APIgrator — our unified solution for fast gambling software integration.",
-      image:
-        "https://static.slotegrator.pro/uploads/api_p2_vp9_chrome_ff1d748f58.webm",
+        "Transform your casino operations with unified access to 30,000+ premium games from 180+ certified providers. GameVault delivers enterprise-grade content aggregation through a single API, eliminating vendor complexity while accelerating time-to-market. Experience seamless integration, automated content updates, and comprehensive provider management in one powerful platform.",
+      image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
     },
     section1: {
-      title: "What is APIgrator?",
+      title: "The Ultimate Content Aggregation Platform",
       description:
-        "APIgrator is the ultimate solution for online casino content, offering a huge collection of games from the industry’s leading game developers, available for swift and seamless integration in just one session. Save time, cut costs, and skip the administrative burden of negotiating and signing separate contracts with multiple vendors.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_modular_blockchain_997e91fa04.png?f=avif&resize=256x256&q=100",
+        "GameVault revolutionizes casino content delivery by consolidating the world's largest gaming library into one intelligent API. Our enterprise platform eliminates the operational burden of managing multiple provider relationships, technical integrations, and content updates. Deploy thousands of tier-1 games instantly, scale effortlessly across markets, and maintain competitive content freshness—all through a single integration that reduces deployment time from months to hours.",
+      image: "/pics/admin.png",
       cards: [
-        { numbers: "30 000+", title: "online casino games" },
-        { numbers: "180+", title: "top game providers" },
-        { numbers: "1", title: "integration session" },
-        { numbers: "24/7", title: "technical support" },
+        { numbers: "30 000+", title: "certified premium games" },
+        { numbers: "180+", title: "tier-1 game providers" },
+        { numbers: "24hrs", title: "rapid integration deployment" },
+        { numbers: "99.9%", title: "platform uptime SLA" },
       ],
     },
     section2: {
-      title: "Features",
+      title: "Enterprise Platform Capabilities",
       description:
-        "APIgrator will help you meet your KPIs and maximize your brand’s ROI.",
+        "Built for scale, optimized for performance. GameVault combines advanced content management with intelligent business tools, delivering measurable ROI through superior player engagement and operational efficiency.",
       cards: [
         {
-          title: "Variety of game types",
+          title: "Unmatched content diversity",
           description:
-            "APIgrator provides a variety of games from the industry's leading developers: slots, live dealer games, poker and other card games, casual games, virtual sports, and more.",
+            "Command the industry's most comprehensive gaming portfolio: premium slots from Play'n GO and Pragmatic Play, Evolution live dealer studios, NetEnt table games, innovative crash games, and regional favorites. Every vertical, every market, one integration.",
         },
         {
-          title: "Retention tools",
+          title: "Integrated retention mechanics",
           description:
-            "You get access to jackpots, regular bonuses, tournaments, and other promotions from game providers.",
+            "Access provider-native jackpot networks, exclusive tournaments, and promotional campaigns that drive engagement and maximize player lifetime value. No additional integration required—activate retention tools directly from your dashboard.",
         },
         {
-          title: "Regular updates",
+          title: "Automated content pipeline",
           description:
-            "APIgrator has regular updates and bug fixes, as well as new games being released weekly and more game providers added monthly.",
+            "Never fall behind market trends. GameVault automatically delivers 100+ new game releases monthly and onboards emerging providers quarterly. Zero technical overhead, continuous content freshness, sustained competitive advantage.",
         },
         {
-          title: "Certified and licensed software",
+          title: "Global regulatory compliance",
           description:
-            "We work solely with certified and licensed game developers to secure your project.",
+            "Every game carries full certification documentation for major jurisdictions including Malta, Curaçao, UKGC, and MGA. Our compliance team maintains audit trails, RNG certifications, and licensing verification—ensuring your platform meets the strictest regulatory standards.",
         },
       ],
     },
     section3: {
-      title: "APIgrator advantages",
-      description: "",
+      title: "Strategic Business Advantages",
+      description: "GameVault transforms complex multi-vendor ecosystems into streamlined competitive advantages, delivering measurable improvements in operational efficiency, market reach, and player satisfaction.",
       cards: [
         {
-          title: "One contract",
+          title: "Unified vendor ecosystem",
           description:
-            "One contract with Slotegrator grants you full access to content from the game providers of your choosing, including their entire game portfolio and the promotions they offer.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_blank_party_6512b8fdae.png?f=avif&resize=300x300&q=100",
+            "Consolidate 180+ provider relationships into one master commercial agreement. Eliminate procurement complexity, streamline legal negotiations, and access complete game portfolios with unified billing, support escalation, and SLA management through a single trusted partner.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Single integration",
+          title: "Accelerated time-to-market",
           description:
-            "Numerous games from different providers are added to your platform in one integration session, which can take just 24 hours.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_lego_9a06fd5ce3.png?f=avif&resize=300x300&q=100",
+            "Deploy production-ready casino operations in 24-48 hours instead of 3-6 months. GameVault's pre-integrated infrastructure eliminates technical debt, bypasses individual provider negotiations, and delivers immediate access to tier-1 content—transforming competitive positioning overnight.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
-          title: "Providers for your target market",
+          title: "Comprehensive market penetration",
           description:
-            "Whichever target market you choose, we have you covered! Our partner network features providers and games for all gambling markets.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_megaphone_a3e2835f7b.png?f=avif&resize=300x300&q=100",
+            "Dominate global and regional markets with locally-optimized content strategies. Our provider network spans European premium slots, Asian live dealer experiences, LatAm crash games, and emerging market favorites—ensuring competitive differentiation in every jurisdiction you enter.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
-          title: "Cost-effective",
+          title: "Performance-based economics",
           description:
-            "The best value on the market. The contract’s terms improve with every provider you choose to integrate into your platform, so the bigger the bundle, the better the deal.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_graph_3_25166abf14.png?f=avif&resize=300x300&q=100",
+            "Scale intelligently with revenue-aligned pricing that improves as you grow. GameVault's flexible commercial model delivers volume-based optimization, provider bundling benefits, and transparent cost-per-spin economics—maximizing margins while maintaining premium content quality.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
+        },
+      ],
+    },
+  },
+  sportsintegration: {
+    heroSection: {
+      title: "BetMatrix - Enterprise Sportsbook Platform",
+      description:
+        "Launch professional-grade sportsbook operations with 400,000+ pre-match events and 35,000+ live markets across 60+ sports disciplines. BetMatrix delivers institutional-quality odds feeds, advanced risk management, live streaming capabilities, and comprehensive trading tools through one unified platform—transforming complex sportsbook infrastructure into competitive advantages.",
+      image: "/pics/betfury-09-1024x525.webp",
+    },
+    section1: {
+      title: "Professional Betting Infrastructure",
+      description:
+        "BetMatrix consolidates tier-1 sports data feeds, multiple odds providers, and advanced risk management into a single high-performance platform. Our enterprise infrastructure supports pre-match, live, esports, and virtual sports betting with microsecond odds updates, intelligent liability management, and professional trading interfaces—delivering institutional-grade sportsbook capabilities without the complexity of multi-vendor orchestration.",
+      image: "/pics/sportbet.png",
+      cards: [
+        {
+          numbers: "400K+",
+          title: "annual pre-match events",
+        },
+        { numbers: "35K+", title: "concurrent live markets" },
+        { numbers: "4.5K+", title: "daily esports betting opportunities" },
+        { numbers: "24/7", title: "virtual sports streaming" },
+      ],
+    },
+    section2: {
+      title: "Advanced Platform Capabilities",
+      description:
+        "Built for professional operators, BetMatrix combines institutional-grade trading tools with player-facing engagement features—delivering comprehensive sportsbook operations that maximize both bookmaker margin and player satisfaction.",
+      cards: [
+        {
+          title: "Multi-feed odds aggregation",
+          description: "Aggregate and arbitrage odds from multiple tier-1 providers in real-time. Our intelligent feed management selects optimal pricing, maximizes margin opportunities, and ensures competitive odds positioning across all markets.",
+        },
+        {
+          title: "Real-time data infrastructure",
+          description:
+            "Microsecond-latency odds updates powered by premium Betradar and IMG Arena feeds. Our real-time engine processes live match data, instantly adjusts markets, and maintains odds accuracy across 35,000+ concurrent events.",
+        },
+        {
+          title: "Intelligent player analytics",
+          description:
+            "Advanced segmentation engine tracks betting patterns, predicts lifetime value, and identifies high-value players. Automated trigger campaigns deliver personalized offers based on sport preferences, bet history, and engagement signals.",
+        },
+        {
+          title: "Automated risk management",
+          description:
+            "Enterprise-grade liability monitoring with real-time exposure tracking, automated bet acceptance rules, and suspicious pattern detection. Our AI-powered risk engine reviews every wager, manages liability limits, and flags fraudulent activity before settlement.",
+        },
+        {
+          title: "Responsive betting interface",
+          description:
+            "Mobile-first design optimized for in-play betting with one-click bet placement, live match trackers, and dynamic market navigation. Customizable frontend templates adapt to regional preferences and operator branding requirements.",
+        },
+        {
+          title: "Promotional campaign engine",
+          description:
+            "Comprehensive bonus management supporting free bets, odds boosts, risk-free wagers, and accumulator bonuses. Real-time promo widgets display live campaigns with automated player segmentation and conversion tracking.",
+        },
+      ],
+    },
+    section3: {
+      title: "Competitive Differentiators",
+      description:
+        "BetMatrix combines enterprise-grade technology with operational flexibility, delivering complete sportsbook infrastructure that scales from startup operations to multi-jurisdiction bookmaker networks.",
+      cards: [
+        {
+          title: "Comprehensive sport coverage",
+          description:
+            "Dominate every vertical: 60+ traditional sports from football to table tennis, 7 virtual sports with HD streams, 4,500+ daily esports markets across CS:GO, Dota 2, and League of Legends. One platform, complete betting entertainment.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
+        },
+        {
+          title: "Market-adaptive customization",
+          description:
+            "Fully white-label platform adapts to regional requirements: Asian handicap layouts, European fractional odds, American moneyline formats. Responsive architecture delivers optimal experiences across desktop, mobile web, and native apps.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
+        },
+        {
+          title: "24/7 operational support",
+          description:
+            "Dedicated trading support, technical escalation, and risk management consultation around the clock. Our operations team monitors platform performance, assists with bet settlement disputes, and provides strategic guidance.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
+        },
+        {
+          title: "Rapid deployment infrastructure",
+          description:
+            "Production-ready sportsbook deployment in 5-7 days with pre-configured risk rules, market templates, and player interfaces. Our battle-tested API eliminates integration complexity, accelerating launch timelines by 80%.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
+        },
+        {
+          title: "Global localization",
+          description:
+            "Complete internationalization supporting 40+ languages, 150+ currencies, and all major odds formats (decimal, fractional, American, Hong Kong, Malay, Indo). Automated currency conversion and multi-timezone bet scheduling included.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
+        },
+        {
+          title: "Strategic account management",
+          description:
+            "Dedicated account managers provide market intelligence, competitive analysis, and promotional strategy guidance. Quarterly business reviews assess performance metrics and identify optimization opportunities for margin improvement.",
+          image: "/pics/admin.png",
         },
       ],
     },
   },
   sportsbookintegration: {
     heroSection: {
-      title: "Sportsbook API integration",
+      title: "BetMatrix - Enterprise Sportsbook Platform",
       description:
-        "Online sportsbook integration solution Sportegrator is a complete bundle for a sports betting project, with customizable software and a wide choice of data feeds, available for seamless integration via our unified API.",
-      image:
-        "https://static.slotegrator.pro/uploads/Sportsbook_anim_vp9_chrome_06c2dac5f1.webm",
+        "Launch professional-grade sportsbook operations with 400,000+ pre-match events and 35,000+ live markets across 60+ sports disciplines. BetMatrix delivers institutional-quality odds feeds, advanced risk management, live streaming capabilities, and comprehensive trading tools through one unified platform—transforming complex sportsbook infrastructure into competitive advantages.",
+      image: "/pics/betfury-09-1024x525.webp",
     },
     section1: {
-      title: "What is Sportegrator?",
+      title: "Professional Betting Infrastructure",
       description:
-        "Sportegrator is a fully-equipped sports betting platform with a wide choice of data feeds and sportsbook odds for online bookmakers available for seamless integration into a single aggregated feed.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_sportsbook_2x_5efffc6c63.png?f=avif&resize=512x512&q=100",
+        "BetMatrix consolidates tier-1 sports data feeds, multiple odds providers, and advanced risk management into a single high-performance platform. Our enterprise infrastructure supports pre-match, live, esports, and virtual sports betting with microsecond odds updates, intelligent liability management, and professional trading interfaces—delivering institutional-grade sportsbook capabilities without the complexity of multi-vendor orchestration.",
+      image: "/pics/sportbet.png",
       cards: [
         {
-          numbers: "400 000+",
-          title: "events across 60+ sports with pre-match betting",
+          numbers: "400K+",
+          title: "annual pre-match events",
         },
-        { numbers: "35 000+", title: "live events from 20+ sports" },
-        { numbers: "4 500+", title: "live odds esports events" },
-        { numbers: "7", title: "virtual sports in 24/7 live HD" },
+        { numbers: "35K+", title: "concurrent live markets" },
+        { numbers: "4.5K+", title: "daily esports betting opportunities" },
+        { numbers: "24/7", title: "virtual sports streaming" },
       ],
     },
     section2: {
-      title: "Platform features",
+      title: "Advanced Platform Capabilities",
       description:
-        "Our sports betting software is designed for smooth operation through a convenient and high-functioning backend system with a variety of modules and settings possibilities.",
+        "Built for professional operators, BetMatrix combines institutional-grade trading tools with player-facing engagement features—delivering comprehensive sportsbook operations that maximize both bookmaker margin and player satisfaction.",
       cards: [
         {
-          title: "Fast payment methods",
-          description: "Over 150 certified and licensed payment providers.",
+          title: "Multi-feed odds aggregation",
+          description: "Aggregate and arbitrage odds from multiple tier-1 providers in real-time. Our intelligent feed management selects optimal pricing, maximizes margin opportunities, and ensures competitive odds positioning across all markets.",
         },
         {
-          title: "Live sports data feeds",
+          title: "Real-time data infrastructure",
           description:
-            "Real-time sportsbook API covering a wide choice of sports, events, bets, and odds.",
+            "Microsecond-latency odds updates powered by premium Betradar and IMG Arena feeds. Our real-time engine processes live match data, instantly adjusts markets, and maintains odds accuracy across 35,000+ concurrent events.",
         },
         {
-          title: "Personalization",
+          title: "Intelligent player analytics",
           description:
-            "Player segmentation, LTV prediction to avoid losing clients, and automated, personalized offer creation.",
+            "Advanced segmentation engine tracks betting patterns, predicts lifetime value, and identifies high-value players. Automated trigger campaigns deliver personalized offers based on sport preferences, bet history, and engagement signals.",
         },
         {
-          title: "Risk management",
+          title: "Automated risk management",
           description:
-            "Effective tools for having all bets reviewed and approved by an automated system, all main sportsbook providers scanned, and all suspicious transactions identified and prohibited.",
+            "Enterprise-grade liability monitoring with real-time exposure tracking, automated bet acceptance rules, and suspicious pattern detection. Our AI-powered risk engine reviews every wager, manages liability limits, and flags fraudulent activity before settlement.",
         },
         {
-          title: "Bespoke personalized design",
+          title: "Responsive betting interface",
           description:
-            "A responsive frontend with easy navigation and exclusive design that offers a range of interfaces to suit every target market.",
+            "Mobile-first design optimized for in-play betting with one-click bet placement, live match trackers, and dynamic market navigation. Customizable frontend templates adapt to regional preferences and operator branding requirements.",
         },
         {
-          title: "Bonus module",
+          title: "Promotional campaign engine",
           description:
-            "Live promo widgets featuring real data, personalised offers, automatic user segmentation, and a wide range of tools for effective user acquisition and retention.",
+            "Comprehensive bonus management supporting free bets, odds boosts, risk-free wagers, and accumulator bonuses. Real-time promo widgets display live campaigns with automated player segmentation and conversion tracking.",
         },
       ],
     },
     section3: {
-      title: "Sportsbook Software Advantages",
+      title: "Competitive Differentiators",
       description:
-        "Our sportsbook betting software is powerful, versatile, and fully equipped with all the tools your sportsbook platform needs. From a wide range of data feeds to dedicated account management, Spotegrator is the best online betting software on the market.",
+        "BetMatrix combines enterprise-grade technology with operational flexibility, delivering complete sportsbook infrastructure that scales from startup operations to multi-jurisdiction bookmaker networks.",
       cards: [
         {
-          title: "Variability",
+          title: "Comprehensive sport coverage",
           description:
-            "A wide range of traditional sports disciplines to choose from, as well as virtual sports and esports.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_sport_916c3f6300.png?f=avif&resize=300x300&q=100",
+            "Dominate every vertical: 60+ traditional sports from football to table tennis, 7 virtual sports with HD streams, 4,500+ daily esports markets across CS:GO, Dota 2, and League of Legends. One platform, complete betting entertainment.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "Adaptability and customization",
+          title: "Market-adaptive customization",
           description:
-            "Responsive design adapts to all platforms from desktop to mobile and convenient content control with the betting event development.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_paint_color_pallete_d3843858c5.png?f=avif&resize=300x300&q=100",
+            "Fully white-label platform adapts to regional requirements: Asian handicap layouts, European fractional odds, American moneyline formats. Responsive architecture delivers optimal experiences across desktop, mobile web, and native apps.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Technical support",
+          title: "24/7 operational support",
           description:
-            "Prompt, responsive, round-the-clock problem resolution.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_headphones_13967a3836.png?f=avif&resize=300x300&q=100",
+            "Dedicated trading support, technical escalation, and risk management consultation around the clock. Our operations team monitors platform performance, assists with bet settlement disputes, and provides strategic guidance.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
-          title: "Fast integration",
+          title: "Rapid deployment infrastructure",
           description:
-            "Rapid, seamless integration of betting options with our API protocol.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_headphones_13967a3836.png?f=avif&resize=300x300&q=100",
+            "Production-ready sportsbook deployment in 5-7 days with pre-configured risk rules, market templates, and player interfaces. Our battle-tested API eliminates integration complexity, accelerating launch timelines by 80%.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
-          title: "Flexibility",
+          title: "Global localization",
           description:
-            "Support of all languages, currencies, and types of odds.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_lang_e2de387f11.png?f=avif&resize=300x300&q=100",
+            "Complete internationalization supporting 40+ languages, 150+ currencies, and all major odds formats (decimal, fractional, American, Hong Kong, Malay, Indo). Automated currency conversion and multi-timezone bet scheduling included.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
         },
         {
-          title: "Account management",
+          title: "Strategic account management",
           description:
-            "Feedback, tips, and recommendations for business development and success.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_mangment_6b87fc949b.png?f=avif&resize=300x300&q=100",
+            "Dedicated account managers provide market intelligence, competitive analysis, and promotional strategy guidance. Quarterly business reviews assess performance metrics and identify optimization opportunities for margin improvement.",
+          image: "/pics/admin.png",
         },
       ],
     },
   },
   telegramcasino: {
     heroSection: {
-      title: "Telegram сasino",
+      title: "Telegram Casino - Next-Gen Gaming Distribution",
       description:
-        "An innovative solution for mobile gambling utilizing a bot. Telegram casino is an alternative to the standard gambling platform, available through the popular mobile application and designed to reach an entirely new niche of players.",
-      image:
-        "https://static.slotegrator.pro/uploads/tg_p2_vp9_chrome_fa645389cc.webm",
+        "Pioneer the future of casino distribution by launching within Telegram's 900 million user ecosystem. Our turnkey bot-based platform delivers 30,000+ games, cryptocurrency payments, and complete casino management through encrypted messaging infrastructure—combining operational simplicity with unprecedented market access to digital-native audiences.",
+      image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
     },
     section1: {
-      title: "What is Telegram casino?",
+      title: "Revolutionary Casino Format",
       description:
-        "Telegram casino is a unique alternative to the classic website format without losing any of its functionality, which allows you to target a potentially new category of users. The solution includes the standard backend while the frontend of your project is displayed as a bot in the Telegram app.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_telegram_2x_4f830e156d.png?f=avif&resize=512x512&q=100",
+        "Telegram casino represents a paradigm shift in gaming distribution—transforming social messaging into a frictionless gambling platform. By deploying your complete casino operation within Telegram's infrastructure, you eliminate app store restrictions, reduce player acquisition costs by 60%, and access a pre-verified user base of 900M+ users. Our solution maintains enterprise casino functionality while leveraging Telegram's encrypted architecture for enhanced player privacy and instant payment settlement.",
+      image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
       cards: [
-        { numbers: "30 000+", title: "online casino games" },
-        { numbers: "100+", title: "top game providers" },
-        { numbers: "250+", title: "payment options" },
-        { numbers: "24/7", title: "technical and player support" },
+        { numbers: "30K+", title: "integrated casino games" },
+        { numbers: "180+", title: "certified game providers" },
+        { numbers: "100+", title: "crypto & fiat payment methods" },
+        { numbers: "900M+", title: "addressable Telegram users" },
       ],
     },
     section2: {
-      title: "Тelegram casino features",
+      title: "Platform Innovation Features",
       description:
-        "Telegram casino is managed through a back office that enables operators to control every aspect — components, structure, content, and newsletters — of the platform.",
+        "Built natively for Telegram's architecture, our casino platform combines conversational UI simplicity with enterprise backend sophistication—delivering comprehensive casino operations through an interface that feels natural to 900 million existing users.",
       cards: [
         {
-          title: "New format",
+          title: "Dual-channel distribution",
           description:
-            "A unique attractive alternative to the classic frontend system which can also still appear as a standard website upon your request.",
+            "Deploy simultaneously as Telegram bot and traditional web casino with unified backend synchronization. Players seamlessly transition between channels with persistent balances, game history, and bonus campaigns—maximizing reach while minimizing operational complexity.",
         },
         {
-          title: "Bonus strategies",
+          title: "Advanced retention mechanics",
           description:
-            "Integration of the bonus module provides you with an incredible set of tools to acquire and retain new audiences.",
+            "Full RewardEngine integration delivers sophisticated promotional campaigns through conversational interface: welcome packages, cashback offers, tournament notifications, and personalized game recommendations triggered by AI-powered player segmentation.",
         },
         {
-          title: "Deposits within the bot",
+          title: "Native payment integration",
           description:
-            "Players can make payments right in the Telegram casino chat bot which makes depositing easier and more convenient.",
+            "Accept deposits directly within chat interface supporting 100+ payment methods including Telegram Stars, TON blockchain, major cryptocurrencies, and traditional fiat processors. Instant settlement, zero payment gateway friction, superior conversion rates.",
         },
         {
-          title: "Platform synchronization",
+          title: "Cross-platform player sync",
           description:
-            "Full synchronization of your web casino with the Telegram bot to ease player authorization.",
+            "Unified player accounts synchronize instantly between Telegram bot and web casino. Players authenticate via Telegram credentials, maintain consistent balances, and access identical game portfolios—creating frictionless omnichannel experience.",
         },
       ],
     },
     section3: {
-      title: "Advantages of Telegram casino",
-      description: "",
+      title: "Strategic Market Advantages",
+      description: "Telegram casino unlocks unique competitive positioning through distribution innovation, cost efficiency, and access to previously unreachable demographics—transforming market entry economics and customer acquisition strategies.",
       cards: [
         {
-          title: "Top-quality games",
+          title: "Premium content library",
           description:
-            "More than 30 000 video slots from the world’s leading developers are accessible through an app with only a few clicks.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_crown_chips_4c3bb04b66.png?f=avif&resize=300x300&q=100",
+            "Complete GameVault integration provides instant access to 30,000+ certified games from 180+ providers including Play'n GO, Pragmatic Play, Evolution live dealer, and exclusive crash games—all optimized for Telegram's lightweight interface.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "High adaptability",
+          title: "Flexible deployment model",
           description:
-            "Тelegram casino may serve as an independent casino platform or a great addition to your website casino project.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_gears_73c8ef270d.png?f=avif&resize=300x300&q=100",
+            "Launch as standalone Telegram-only operation to test markets with minimal investment, or deploy as strategic channel expansion for existing web casinos. Both models share unified backend infrastructure, player databases, and promotional campaigns.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Intuitive navigation interface",
+          title: "Conversational user experience",
           description:
-            "The app’s chat bot makes the player journey fun and comfortable. Easy navigation allows users to reach their favorite games in as few clicks as possible.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_lang_e2de387f11.png?f=avif&resize=300x300&q=100",
+            "Telegram's native chat interface eliminates traditional casino UI complexity. Players discover games, claim bonuses, and initiate deposits through simple conversational commands—reducing player onboarding friction by 70% compared to web casinos.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
-          title: "New audience",
+          title: "Emerging market penetration",
           description:
-            "Casino bots can be launched anywhere, providing operators with opportunities to reach new target markets.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_mangment_6b87fc949b.png?f=avif&resize=300x300&q=100",
+            "Access high-growth markets where traditional casino advertising faces restrictions. Telegram's encrypted infrastructure and peer-to-peer distribution enable operations in regions with complex regulatory environments and restrictive app store policies.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
-          title: "Increased anonymity",
+          title: "Enhanced player privacy",
           description:
-            "Your players’ IP address, device details, and other sensitive info are not collected.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_inkognito_d96a18cb6b.png?f=avif&resize=300x300&q=100",
+            "Telegram's end-to-end encryption architecture provides superior player anonymity without compromising operator compliance requirements. Minimal data collection, secure credential storage, and privacy-first design attract cryptocurrency and privacy-conscious demographics.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
         },
         {
-          title: "Novel experience",
+          title: "Differentiated player experience",
           description:
-            "You allow your clients to play in a different interface, which helps them to stay interested.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_phone_c59ad8461d.png?f=avif&resize=300x300&q=100",
+            "Stand apart from saturated traditional casino markets by offering genuinely novel gaming format. Telegram's social features, instant messaging integration, and unique interface create memorable player experiences that drive organic growth through viral sharing.",
+          image: "/pics/admin.png",
         },
       ],
     },
   },
   paymentsystems: {
     heroSection: {
-      title: "iGaming payment solutions",
+      title: "PayStream - Enterprise Payment Orchestration",
       description:
-        "Moneygrator combines multiple payment systems in a single application, delivering a smooth online payment experience to your website visitors no matter where they are or how they pay.",
-      image:
-        "https://static.slotegrator.pro/uploads/moneygrator_anim_2_vp9_chrome_ea94880fdb.webm",
+        "Maximize payment acceptance and minimize transaction friction with intelligent multi-provider orchestration. PayStream integrates 150+ payment methods from 30+ certified processors through one unified API—delivering intelligent routing, cascading fallbacks, and comprehensive settlement management that increases deposit conversion by up to 35% while supporting global fiat and cryptocurrency operations.",
+      image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
     },
     section1: {
-      title: "What is Moneygrator?",
+      title: "Intelligent Payment Infrastructure",
       description:
-        "Moneygrator is a multi-currency payment solution for online casinos that helps operators to easily integrate multiple online payment systems into their platforms within a single session.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_vault_2x_c67080022d.png?f=avif&resize=512x512&q=100",
+        "PayStream transforms payment processing from operational complexity into strategic advantage. Our enterprise orchestration platform aggregates multiple payment service providers, intelligently routes transactions based on success rates and cost optimization, and automatically cascades to backup processors when primary routes fail. The result: superior conversion rates, minimized processing fees, and comprehensive geographic coverage across 150+ currencies and 100+ cryptocurrencies—all managed through one powerful integration.",
+      image: "/pics/admin.png",
       cards: [
-        { numbers: "30+", title: "payment providers" },
-        { numbers: "150+", title: "payment options" },
-        { numbers: "150+", title: "currencies" },
-        { numbers: "100+", title: "cryptocurrencies" },
+        { numbers: "30+", title: "integrated payment processors" },
+        { numbers: "150+", title: "payment method options" },
+        { numbers: "150+", title: "supported fiat currencies" },
+        { numbers: "100+", title: "cryptocurrency integrations" },
       ],
     },
     section2: {
-      title: "Offer better payments with Moneygrator",
+      title: "Advanced Orchestration Features",
       description:
-        "Integrate more than 150 payment options from a variety of payment service providers into your platform.",
+        "Built for enterprise-scale payment operations, PayStream combines intelligent routing algorithms with comprehensive provider management—optimizing every transaction for maximum approval rates and minimum processing costs.",
       cards: [
         {
-          title: "Single integration session",
+          title: "Unified API integration",
           description:
-            "Fast integration of all required payment systems and methods in one session.",
+            "Deploy complete payment infrastructure through one streamlined integration session. PayStream's RESTful API provides standardized connectivity to 30+ processors, eliminating months of individual PSP integrations and ongoing technical maintenance.",
         },
         {
-          title: "Back office with transaction history",
+          title: "Comprehensive analytics dashboard",
           description:
-            "Convenient back office with useful statistics and information to keep track of all transactions.",
+            "Real-time payment intelligence across all processors: approval rates by method and region, average processing times, cost analysis, chargeback tracking, and revenue reconciliation. Advanced reporting identifies optimization opportunities and monitors processor performance.",
         },
         {
-          title: "A variety of payment options",
+          title: "Global market coverage",
           description:
-            "Extensive geographical coverage: India, Pakistan, Vietnam, Thailand, China, Europe, Russia, CIS, and Latin America.",
+            "Dominate payment acceptance across high-value markets: India UPI and Paytm, Southeast Asia e-wallets, European SEPA and cards, Latin American PIX and OXXO, CIS Qiwi and Yandex, plus comprehensive cryptocurrency support for Web3-native demographics.",
         },
         {
-          title: "Coherent technology",
+          title: "Intelligent cascading logic",
           description:
-            "Seamless switching between payment processors in case of a transaction failure, leading to increased conversion and satisfaction of your customers.",
+            "Maximize approval rates through smart transaction routing. When primary processors decline, PayStream automatically cascades to backup PSPs based on historical success rates, cost optimization, and real-time availability—increasing conversion by 25-35% compared to single-processor setups.",
         },
       ],
     },
     section3: {
-      title: "Moneygrator advantages",
-      description: "",
+      title: "Operational Excellence",
+      description: "PayStream delivers enterprise-grade payment infrastructure that balances conversion optimization, operational efficiency, fraud prevention, and comprehensive compliance—transforming payments from cost center to competitive advantage.",
       cards: [
         {
-          title: "Usability",
+          title: "Intuitive management interface",
           description:
-            "An easy-to-use multifunctional back-office allows you to manage and track all financial transactions of your website.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_card_coins_clock_50e6361b1a.png?f=avif&resize=300x300&q=100",
+            "Centralized dashboard provides complete visibility across all payment processors: real-time transaction monitoring, instant settlement reconciliation, automated payout management, and configurable routing rules. Control 30+ PSPs through one elegant interface.",
+          image: "/pics/admin.png",
         },
         {
-          title: "Security",
+          title: "Enterprise security standards",
           description:
-            "We provide smooth operation while conducting financial transactions. We work solely with verified payment services with reliable protection against fraud.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_shield_key_bf4b778571.png?f=avif&resize=300x300&q=100",
+            "PCI DSS Level 1 compliant infrastructure with end-to-end encryption, tokenization, and fraud detection across all integrated processors. Our security team continuously monitors for suspicious patterns, ensuring every transaction meets international financial security standards.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "Flexibility",
+          title: "Maximum payment flexibility",
           description:
-            "A wide selection of payment methods for different countries, cryptocurrency processing, and instant deposit/withdrawal.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_wallet_0436380a35.png?f=avif&resize=300x300&q=100",
+            "Support every player preference across every market: traditional cards, e-wallets, bank transfers, cryptocurrency, local payment methods, and emerging Web3 options. Instant deposit processing, automated withdrawal management, and multi-currency settlement included.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Convenience",
+          title: "Cost-optimized processing",
           description:
-            "Efficient and cost-effective, while also ensuring the reliability and safety of all monetary transactions.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_bank_d8f0639981.png?f=avif&resize=300x300&q=100",
+            "Intelligent routing algorithms automatically select lowest-cost processors for each transaction type while maintaining optimal approval rates. Dynamic fee negotiation, volume-based pricing optimization, and transparent cost analytics maximize payment margin efficiency.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
       ],
     },
   },
   affiliatemanagement: {
     heroSection: {
-      title: "Partnergrator",
+      title: "PartnerCore - Enterprise Affiliate Platform",
       description:
-        "Slotegrator introduces a complete business intelligence solution for real-time affiliate program management and analysis. Partnergrator provides a unified protocol that processes and segments event data for tracking and managing affiliate programs.",
-      image:
-        "https://static.slotegrator.pro/uploads/partnergrator_7c79816b88.png?f=avif&resize=666x666&q=100",
+        "Scale player acquisition through intelligent affiliate orchestration. PartnerCore unifies multiple affiliate networks and 25,000+ performance partners into one powerful dashboard—delivering real-time attribution, flexible commission automation, fraud detection, and comprehensive ROI analytics that optimize every marketing dollar while eliminating the complexity of multi-network management.",
+      image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
     },
     section1: {
-      title: "What is Partnergrator?",
+      title: "Unified Affiliate Infrastructure",
       description:
-        "Partnergrator is our affiliate service designed to grant access to several affiliate networks and analytics tools directly through the online casino platform. It enables operators to access the affiliate management dashboard directly from their casino backend and saves our clients time and money.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_partnergrator_2x_c6b78b2411.png?f=avif&resize=512x512&q=100",
+        "PartnerCore transforms affiliate marketing from fragmented vendor relationships into centralized competitive advantage. Our platform integrates seamlessly with Post Affiliate Pro, NetRefer, and proprietary affiliate networks, consolidating partner management, tracking infrastructure, and commission automation into your existing casino backend. Access 25,000+ established affiliates instantly, launch sophisticated campaigns with granular performance tracking, and optimize acquisition costs—all without deploying separate affiliate management systems or juggling multiple platform logins.",
+      image: "/pics/admin.png",
       cards: [
-        { numbers: "5", title: "affiliate programs" },
-        { numbers: "7", title: "types of events" },
-        { numbers: "25 000+", title: "affiliate partners" },
-        { numbers: "24/7", title: "technical support" },
+        { numbers: "5+", title: "integrated affiliate platforms" },
+        { numbers: "12+", title: "commission model variants" },
+        { numbers: "25K+", title: "pre-vetted affiliate partners" },
+        { numbers: "Real-time", title: "conversion attribution tracking" },
       ],
     },
     section2: {
-      title: "Features",
+      title: "Advanced Management Capabilities",
       description:
-        "Our solution is integrated with Post Affiliate Pro, NetRefer, and more, eliminating the costs of a separate integration with each vendor.",
+        "PartnerCore delivers institutional-grade affiliate operations through seamless multi-network integration—eliminating vendor complexity while providing sophisticated tools that maximize acquisition efficiency and partner performance.",
       cards: [
         {
-          title: "Campaign creation tools",
+          title: "Multi-channel campaign orchestration",
           description:
-            "Develop affiliate campaigns to manage events for tracking.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_megaphone_2x_d5ceecc38d.png?f=avif&resize=86x86&q=100",
+            "Design complex attribution campaigns tracking player journeys across multiple touchpoints. Monitor performance across email, content marketing, paid advertising, and influencer partnerships with granular event tracking and conversion funnel analytics.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "Flexible commission models",
+          title: "Dynamic commission automation",
           description:
-            "Create your own payment plans, and then manage, track, and analyse them effectively.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_graph_2_2x_35c52a3b03.png?f=avif&resize=86x86&q=100",
+            "Deploy sophisticated payment structures: CPA, revenue share, hybrid models, tiered performance bonuses, and custom arrangements. Automated calculation engine processes commissions in real-time with transparent reporting and configurable payout schedules.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Multiple affiliate systems",
+          title: "Unified network management",
           description:
-            "Choose one or several affiliate systems to seamlessly integrate into your platform.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_person_2x_4100f6fb46.png?f=avif&resize=86x86&q=100",
+            "Simultaneously operate across Post Affiliate Pro, NetRefer, and proprietary networks through one interface. Consolidated partner database, unified reporting, and synchronized commission structures eliminate multi-platform operational overhead.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
-          title: "Customization",
+          title: "Comprehensive reporting customization",
           description:
-            "Set Partnergrator’s interface and customize reports and data you would like to obtain.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_gear_2x_4136ce1c02.png?f=avif&resize=86x86&q=100",
+            "Build custom dashboards displaying precisely the metrics that drive your acquisition strategy. Filter by affiliate, campaign, geography, device, or game vertical. Export detailed reports for financial reconciliation and strategic planning.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
-          title: "Banner management",
+          title: "Creative asset distribution",
           description:
-            "Create banners and other marketing materials to make affiliate campaigns more effective.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_gear_2x_4136ce1c02.png?f=avif&resize=86x86&q=100",
+            "Centralized marketing material management: banners, landing pages, email templates, and promotional assets. Partners access brand-compliant creatives instantly while you maintain version control and performance tracking per asset.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
         },
         {
-          title: "Intuitive back office",
+          title: "Integrated backend control",
           description:
-            "Manage affiliate settings and track promotions through the back office with the simple menu.",
-          image:
-            "https://static.slotegrator.pro/uploads/ic_star_2x_fccdd5245a.png?f=avif&resize=86x86&q=100",
+            "Access complete affiliate operations directly within your casino admin panel. No separate logins, unified user permissions, and seamless workflow integration—managing affiliates feels like native platform functionality.",
+          image: "/pics/admin.png",
         },
       ],
     },
     section3: {
-      title: "Advantages of Partnergrator",
-      description: "",
+      title: "Strategic Business Benefits",
+      description: "PartnerCore transforms affiliate operations into measurable competitive advantages—reducing customer acquisition costs, accelerating partner onboarding, and delivering ROI transparency that optimizes every marketing investment.",
       cards: [
         {
-          title: "Technical support",
+          title: "Dedicated operational support",
           description:
-            "Take advantage of 24/7 technical and operational support.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_headphone_chat_6f538ae09b.png?f=avif&resize=300x300&q=100",
+            "Round-the-clock technical assistance for platform issues, partner disputes, and commission inquiries. Our affiliate specialists provide strategic consultation on partner recruitment, commission optimization, and fraud prevention—extending your marketing team's capabilities.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "Easy and efficient management",
+          title: "Centralized operational efficiency",
           description:
-            "Conveniently manage your multiple affiliates in one place — from your admin panel.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_settings_db96cbdf17.png?f=avif&resize=300x300&q=100",
+            "Eliminate the overhead of managing multiple affiliate platforms. PartnerCore consolidates partner communications, commission processing, creative distribution, and performance monitoring into your existing admin workflow—reducing management time by 70%.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Detailed reporting",
+          title: "Advanced performance intelligence",
           description:
-            "Receive detailed activity reports, access comprehensive statistics, and monitor affiliates’ performance.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_target_chat_gears_pie_fd575eca33.png?f=avif&resize=300x300&q=100",
+            "Access institutional-grade analytics tracking every dimension of affiliate performance: player lifetime value by source, campaign ROI with multi-touch attribution, fraud pattern detection, and predictive partner quality scoring. Data-driven insights identify top performers and optimize budget allocation.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
       ],
     },
   },
   bonussystem: {
     heroSection: {
-      title: "Online casino bonus system & gambling marketing",
+      title: "RewardEngine - Enterprise Retention Platform",
       description:
-        "Our modular bonus system is the ultimate user acquisition and retention solution for online casino operators. It allows them to enhance the customer experience by providing special offers, loyalty programs, and gamification.",
-      image:
-        "https://static.slotegrator.pro/uploads/bonusgrator_08c63c816c.png?f=avif&resize=666x666&q=100",
+        "Transform player acquisition into long-term value with sophisticated bonus orchestration. RewardEngine delivers 30+ promotional mechanics, AI-powered player segmentation, and automated campaign triggers that increase engagement by up to 70% and extend player lifetime by 3-5 months—combining the flexibility of custom campaigns with the reliability of enterprise-grade bonus infrastructure proven across $2B+ in annual promotional spend.",
+      image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
     },
     section1: {
-      title: "What is Bonusgrator?",
+      title: "Intelligent Bonus Infrastructure",
       description:
-        "Our bonus management system is designed for effective online casino marketing and promotion. Bonusgrator allows you to manage bonuses and loyalty programs from your casino platform’s backend.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_present_cup_2x_9184e36143.png?f=avif&resize=512x512&q=100",
+        "RewardEngine represents the most advanced bonus management platform in iGaming—combining sophisticated promotional mechanics with AI-driven player intelligence. Our system automatically segments players based on behavior patterns, predicts churn probability, and delivers personalized offers that maximize retention ROI. From simple welcome packages to complex multi-stage gamification campaigns, RewardEngine handles every promotional scenario while maintaining real-time budget control, fraud detection, and comprehensive compliance tracking.",
+      image: "/pics/admin.png",
       cards: [
-        { numbers: "30+", title: "promo types" },
-        { numbers: "70%", title: "player engagement increase" },
-        { numbers: "99.9%", title: "uptime guarantee" },
-        { numbers: "24/7", title: "technical support" },
+        { numbers: "30+", title: "promotional mechanic types" },
+        { numbers: "70%", title: "average engagement increase" },
+        { numbers: "99.99%", title: "platform uptime SLA" },
+        { numbers: "Real-time", title: "bonus trigger processing" },
       ],
     },
     section2: {
-      title: "Features of our bonus management system",
+      title: "Advanced Campaign Capabilities",
       description:
-        "Built on an API architecture, our bonus system can be integrated into any casino site.",
+        "Built on modern microservices architecture, RewardEngine scales from startup operations to multi-brand networks processing millions of bonus transactions monthly—delivering enterprise reliability with the flexibility to support any promotional strategy.",
       cards: [
         {
-          title: "Variety",
-          description: "A wide range of bonus options.",
+          title: "Comprehensive promotional library",
+          description: "Deploy 30+ bonus types including welcome packages, deposit matches, free spins, cashback, reload bonuses, tournaments, missions, achievements, loyalty programs, and custom mechanics. Every promotional tool needed for competitive player retention.",
         },
         {
-          title: "Adjustability",
-          description: "Extensive array of configuration options.",
+          title: "Dynamic configuration engine",
+          description: "Granular control over every bonus parameter: eligibility rules, wagering requirements, game restrictions, time limits, maximum wins, and abuse prevention. Launch complex multi-stage campaigns without developer involvement.",
         },
         {
-          title: "Adaptability",
-          description: "Can be integrated into any casino site.",
+          title: "Universal platform integration",
+          description: "RESTful API integrates seamlessly with any casino platform architecture. Whether you operate turnkey solutions, white labels, or custom-built platforms, RewardEngine deploys in days with comprehensive documentation and technical support.",
         },
         {
-          title: "Flexibility",
-          description: "Perfect for both casinos and sportsbooks.",
+          title: "Cross-vertical compatibility",
+          description: "Unified bonus management across casino, sportsbook, and poker verticals. Configure sport-specific free bets, casino deposit bonuses, and poker tournament tickets through one interface with shared player budgets and consolidated reporting.",
         },
         {
-          title: "Troubleshooting",
-          description: "24/7 technical support.",
+          title: "24/7 operational support",
+          description: "Round-the-clock technical assistance ensures uninterrupted bonus operations. Our specialists provide campaign optimization consultation, troubleshoot integration issues, and assist with complex promotional mechanics configuration.",
         },
         {
-          title: "Improvement",
-          description: "Continuous development of new features.",
+          title: "Continuous platform evolution",
+          description: "Quarterly feature releases deliver emerging promotional mechanics, enhanced segmentation algorithms, and new gamification elements. Our product roadmap incorporates operator feedback and industry trends to maintain competitive positioning.",
         },
       ],
     },
     section3: {
-      title: "Advantages of our bonus management system",
-      description: "",
+      title: "Measurable Business Impact",
+      description: "RewardEngine transforms promotional spend from cost center to strategic growth driver—delivering quantifiable improvements in player retention, lifetime value, and marketing ROI through data-driven bonus intelligence.",
       cards: [
         {
-          title: "User retention",
+          title: "Extended player lifetime value",
           description:
-            "Extend your players’ lifetime and increase their value.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_person_gift_04822f62ac.png?f=avif&resize=300x300&q=100",
+            "Intelligent retention campaigns automatically trigger when churn signals appear, re-engaging players with personalized offers. Operators using RewardEngine report 40-70% longer average player lifetimes and 2-3x higher lifetime value compared to generic promotional strategies.",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
-          title: "Winning competition",
+          title: "Competitive market differentiation",
           description:
-            "Beat the competition by offering your players unique perks and rewards.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_champions_886472012d.png?f=avif&resize=300x300&q=100",
+            "Stand out in saturated markets with innovative promotional mechanics competitors can't easily replicate. Advanced gamification, mission-based campaigns, and personalized achievement systems create memorable player experiences that build brand loyalty beyond deposit matching.",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
-          title: "Unique offers",
-          description: "Customize your own bonus-driven marketing strategy.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_giftbox_money_0dfa3257c3.png?f=avif&resize=300x300&q=100",
+          title: "Personalized promotion engine",
+          description:
+            "AI-powered segmentation analyzes 50+ player behavior signals to deliver individualized bonus offers. High-value players receive VIP treatment, casual players get re-engagement incentives, and at-risk segments receive retention offers—maximizing promotional efficiency through precision targeting.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
-          title: "Revenues increase",
-          description: "Grow your revenues and increase user satisfaction.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_vault_money_1d780e800e.png?f=avif&resize=300x300&q=100",
+          title: "Revenue optimization analytics",
+          description:
+            "Comprehensive promotional intelligence tracks bonus ROI, player response rates, wagering completion, and revenue impact by campaign. Data-driven insights identify which promotional mechanics drive profitability, enabling continuous optimization of marketing budget allocation.",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
       ],
     },
@@ -559,7 +618,7 @@ export const products = {
       description:
         "Our bonus module offers a wide range of tools to grab players’ attention.",
       image:
-        "https://static.slotegrator.pro/uploads/about_money_2x_ee7c12028e.png?f=avif&resize=512x512&q=100",
+        "https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?w=512&h=512&fit=crop&q=80",
       cards: [
         { title: "Free spins" },
         { title: "Event bonuses" },
@@ -574,9 +633,9 @@ export const products = {
   },
   licensing: {
     heroSection: {
-      title: "Gambling license acquisition",
+      title: "Gaming License Acquisition Services",
       description:
-        "Casino licenses not only allow operators to legally start and run online and land-based gambling businesses, but also grant projects legitimacy and credibility.",
+        "Navigate complex licensing requirements with our comprehensive acquisition support. We provide end-to-end assistance for obtaining gaming licenses across major jurisdictions including Curaçao, Malta, Gibraltar, and Isle of Man, managing documentation, compliance procedures, and regulatory submissions.",
       image:
         "https://static.slotegrator.pro/uploads/licenses_abc1a989af.png?f=avif&resize=666x666&q=100",
     },
@@ -628,9 +687,9 @@ export const products = {
   },
   advisoryservices: {
     heroSection: {
-      title: "Gambling business advisory services",
+      title: "iGaming Business Advisory & Compliance",
       description:
-        "Our gambling business advisory services save you time and help you stay compliant with regulatory changes by providing you with all the information you need.",
+        "Expert guidance for launching and scaling your iGaming operation. Our advisory services cover regulatory compliance, market entry strategy, corporate structuring, due diligence, and ongoing regulatory monitoring to ensure your business remains compliant across all operating jurisdictions.",
       image:
         "https://static.slotegrator.pro/uploads/advisory_db61e12d67.png?f=avif&resize=666x666&q=100",
     },
@@ -713,9 +772,9 @@ export const products = {
   },
   casinowebhosting: {
     heroSection: {
-      title: "Casino web hosting",
+      title: "Enterprise Casino Hosting Infrastructure",
       description:
-        "Online gambling websites are hosted on remote technical equipment which serves as their material base. Slotegrator provides reliable web hosting for online gambling projects, ensuring smooth operations, 24/7 technical support, and complete security.",
+        "High-performance hosting infrastructure optimized for iGaming workloads. Our platform delivers 99.9% uptime, DDoS protection, auto-scaling capabilities, and 24/7 monitoring on enterprise-grade hardware, ensuring your casino maintains peak performance under any traffic conditions.",
       image:
         "https://static.slotegrator.pro/uploads/hosting_52090be8d3.png?f=avif&resize=666x666&q=100",
     },
@@ -728,28 +787,28 @@ export const products = {
           description:
             "Slotegrator provides 24/7 technical support — any technical issues will be resolved fast.",
           image:
-            "https://static.slotegrator.pro/uploads/img_card_headphone_chat_6f538ae09b.png?f=avif&resize=300x300&q=100",
+            "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=300&h=300&fit=crop&q=80",
         },
         {
           title: "Operation speed",
           description:
             "Your server will be hosted on modern equipment, providing instant system responses to any requests.",
           image:
-            "https://static.slotegrator.pro/uploads/img_card_stopwatch_6cb29ffbf9.png?f=avif&resize=300x300&q=100",
+            "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=300&fit=crop&q=80",
         },
         {
           title: "Stability",
           description:
             "The server has a high bandwidth and processes large amounts of information in a short time. We ensure seamless operation even with critical volumes of visitors, guaranteeing stability in the case of traffic overflow.",
           image:
-            "https://static.slotegrator.pro/uploads/img_card_server_ebc1b207c7.png?f=avif&resize=300x300&q=100",
+            "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=300&h=300&fit=crop&q=80",
         },
         {
           title: "Security",
           description:
             "The server is equipped with a firewall and other security systems that block unauthorized access to the resource.",
           image:
-            "https://static.slotegrator.pro/uploads/img_card_shield_key_bf4b778571.png?f=avif&resize=300x300&q=100",
+            "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=300&h=300&fit=crop&q=80",
         },
       ],
     },

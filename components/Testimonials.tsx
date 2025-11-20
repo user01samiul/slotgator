@@ -63,7 +63,7 @@ export default function Testimonials() {
       name: "Michele Morotti",
       title: "CEO",
       company: "Capecod Gaming",
-      quote: "Partnering with Slotgator is one of the best strategic moves we've made — they're an undisputed leader in the iGaming industry...",
+      quote: "Partnering with Slotgator is one of the best strategic moves we've made   they're an undisputed leader in the iGaming industry...",
     },
     {
       company: "RiCH88",

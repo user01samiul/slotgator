@@ -8,7 +8,7 @@ export async function GET(request: Request) {
 
         //protect
     const session = await auth();
-    
+
         if (!session?.user) {
           return NextResponse.json(
             { success: false, message: "request failed" },

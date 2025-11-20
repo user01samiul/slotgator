@@ -2,18 +2,16 @@ export const integrations = {
   
   slots: {
     heroSection: {
-      title: "APIgrator online casino game integration",
+      title: "Slot Game Integration & Aggregation",
       description:
-        "Enrich your casino platform with over 30 000 certified games from over 180 licensed game developers with APIgrator — our unified solution for fast gambling software integration.",
-      image:
-        "https://static.slotegrator.pro/uploads/home_b93b7ad441.png?f=avif&resize=666x666&q=100",
+        "Access the industry's largest collection of slot games through unified integration. Connect to 30,000+ certified slots from 180+ premium providers including Play'n GO, Pragmatic Play, NetEnt, and Evolution, with new releases added weekly through our APIgrator platform.",
+      image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
     },
     section2: {
       title: "What is APIgrator?",
       description:
-        "APIgrator is the ultimate solution for online casino content, offering a huge collection of games from the industry’s leading game developers, available for swift and seamless integration in just one session. Save time, cut costs, and skip the administrative burden of negotiating and signing separate contracts with multiple vendors.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_modular_blockchain_997e91fa04.png?f=avif&resize=256x256&q=100",
+        "APIgrator is the ultimate solution for online casino content, offering a huge collection of games from the industry's leading game developers, available for swift and seamless integration in just one session. Save time, cut costs, and skip the administrative burden of negotiating and signing separate contracts with multiple vendors.",
+      image: "/pics/admin.png",
       cards: [
         { numbers: "30 000+", title: "online casino games" },
         { numbers: "180+", title: "top game providers" },
@@ -56,29 +54,25 @@ export const integrations = {
           title: "One contract",
           description:
             "One contract with Slotegrator grants you full access to content from the game providers of your choosing, including their entire game portfolio and the promotions they offer.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_blank_party_6512b8fdae.png?f=avif&resize=300x300&q=100",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
           title: "Single integration",
           description:
             "Numerous games from different providers are added to your platform in one integration session, which can take just 24 hours.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_lego_9a06fd5ce3.png?f=avif&resize=300x300&q=100",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
           title: "Providers for your target market",
           description:
             "Whichever target market you choose, we have you covered! Our partner network features providers and games for all gambling markets.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_megaphone_a3e2835f7b.png?f=avif&resize=300x300&q=100",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
           title: "Cost-effective",
           description:
-            "The best value on the market. The contract’s terms improve with every provider you choose to integrate into your platform, so the bigger the bundle, the better the deal.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_graph_3_25166abf14.png?f=avif&resize=300x300&q=100",
+            "The best value on the market. The contract's terms improve with every provider you choose to integrate into your platform, so the bigger the bundle, the better the deal.",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
         },
       ],
     },
@@ -90,23 +84,21 @@ export const integrations = {
   },
   livedealers: {
     heroSection: {
-      title: "Live dealer casino software",
+      title: "Live Dealer Casino Integration",
       description:
-        "By bringing the casino floor straight to players’ screens and enabling them to socialize with each other — as well as with the professional dealers — live casino games attract huge audiences around the globe.",
-      image:
-        "https://static.slotegrator.pro/uploads/live_dealer_1_2x_53b16a1031.png?f=avif&resize=666x666&q=100",
+        "Deliver authentic casino experiences with real-time HD streaming from professional studios worldwide. Integrate live blackjack, roulette, baccarat, and regional favorites from Evolution Gaming, Pragmatic Play Live, Ezugi, and other tier-1 providers, with 24/7 availability and multi-language dealer support.",
+      image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
     },
     section1: {
       title: "What are live dealer games?",
       description:
-        "Live dealer games are webcast in modern, fully equipped studios located around the world. The studios operate around the clock, ensuring players in every region of the globe always have full access to their favorite games no matter when the desire to play strikes them.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_cards_2x_f9bbf9eff1.png?f=avif&resize=512x512&q=100",
+        "Live dealer games stream authentic casino action from state-of-the-art studios globally, featuring professional dealers and real gaming equipment. Operating continuously across multiple time zones, these studios ensure players worldwide enjoy uninterrupted access to genuine casino experiences with real-time gameplay, chat interaction, and traditional table game mechanics.",
+      image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
       cards: [
-        { numbers: "7+", title: "top game providers" },
-        { numbers: "1", title: "game types" },
-        { numbers: "1", title: "integration session" },
-        { numbers: "24/7", title: "technical support" },
+        { numbers: "7+", title: "premium live casino providers" },
+        { numbers: "100+", title: "live dealer game variants" },
+        { numbers: "1", title: "unified API integration" },
+        { numbers: "24/7", title: "live studio operation" },
       ],
     },
     section2: {
@@ -138,23 +130,21 @@ export const integrations = {
   },
   bingo: {
     heroSection: {
-      title: "Bingo game integration from leading software developers",
+      title: "Bingo Game Integration Solutions",
       description:
-        "Bring the unique experience of bingo to your players! Add variety to your catalogue of games thanks to the best bingo software providers and offer your customers a fresh entertainment experience.",
-      image:
-        "https://static.slotegrator.pro/uploads/Bingo_vp9_chrome_4d05f7fca8.webm",
+        "Expand your gaming portfolio with 100+ innovative bingo variants from leading providers. Integrate traditional 75-ball and 90-ball formats alongside modern video bingo and themed variations, offering lottery-style entertainment that attracts demographics beyond traditional casino players.",
+      image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
     },
     section1: {
       title: "What are bingo games?",
       description:
-        "Our providers create innovative bingo games that combine the quick pace and ease of use of modern titles with the well-known formula of this beloved classic. Choose from a variety of live and video bingo titles and offer your players exciting, exclusive gameplay sure to make your casino stand out.",
-      image:
-        "https://static.slotegrator.pro/uploads/about_bingo_2x_35fd2171ba.png?f=avif&resize=512x512&q=100",
+        "Modern bingo games blend the familiar mechanics of this classic game with contemporary design and fast-paced action. Our provider network delivers both live-hosted community bingo rooms and instant-play video bingo variants, featuring innovative bonus rounds, progressive jackpots, and themed content that appeals to traditional bingo enthusiasts and new players alike.",
+      image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
       cards: [
-        { numbers: "10+", title: "top game providers" },
-        { numbers: "100+", title: "exciting games" },
-        { numbers: "1", title: "integration session" },
-        { numbers: "24/7", title: "technical support" },
+        { numbers: "10+", title: "certified bingo providers" },
+        { numbers: "100+", title: "bingo game variants" },
+        { numbers: "1", title: "streamlined API integration" },
+        { numbers: "24/7", title: "dedicated technical support" },
       ],
     },
     section2: {
@@ -165,40 +155,35 @@ export const integrations = {
           title: "Variety",
           description:
             "Bingo games are a perfect complement to slots and tables with a different, fresh gaming experience.",
-          image:
-            "https://static.slotegrator.pro/uploads/color_pallete_d4bc85620d.png?f=avif&resize=300x300&q=100",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
           title: "Target a wide demographic",
           description:
             "Bingo is particularly appreciated in traditionalist markets like Latin America and by older players everywhere.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_target_842e0a7e9a.png?f=avif&resize=300x300&q=100",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
           title: "Access to strict jurisdictions",
           description:
-            "Lottery-type games can be offered in various jurisdictions where online slots and tables aren’t permitted. Having bingo titles in your catalogue allows you to tap into these markets.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_law_172019ff2e.png?f=avif&resize=300x300&q=100",
+            "Lottery-type games can be offered in various jurisdictions where online slots and tables aren't permitted. Having bingo titles in your catalogue allows you to tap into these markets.",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
           title: "Ease of play",
           description:
             "Its classic, well-known gameplay makes bingo accessible to all players, including novices.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_lego_9a06fd5ce3.png?f=avif&resize=300x300&q=100",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
       ],
     },
   },
   virtualsports: {
     heroSection: {
-      title: "Virtual sports betting solutions",
+      title: "Virtual Sports Betting Integration",
       description:
-        "Bring more players to your project with unlimited sports betting opportunities. Virtual sports software will expand the capabilities of your online casino and allow your players to bet whenever they like.",
-      image:
-        "https://static.slotegrator.pro/uploads/sportsbook_f0b72f31e6.png?f=avif&resize=666x666&q=100",
+        "Deliver non-stop betting action with simulated sports running 24/7. Virtual football, horse racing, greyhounds, and motorsports provide instant results and continuous wagering opportunities, perfect for filling gaps between live events and attracting a younger, action-oriented betting demographic.",
+      image: "/pics/betfury-09-1024x525.webp",
     },
     section1: {
       title: "A wide range of popular virtual sports",
@@ -234,46 +219,40 @@ export const integrations = {
           title: "Constant access",
           description:
             "Unlike real sports, virtual sports allow players to bet at any time of the day.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_LOCK_43054b76cb.png?f=avif&resize=300x300&q=100",
+          image: "/pics/A5Wi5ylMQ3bG7tUbcpLaa1Vk.avif",
         },
         {
           title: "Convenience",
           description:
             "Virtual matches are short and take place every few minutes, with results published immediately.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_alarm_11495056cc.png?f=avif&resize=300x300&q=100",
+          image: "/pics/LN2hsfjYcjQYn2wFXuRoOLIAM.avif",
         },
         {
           title: "Variety of games",
           description:
             "Pick virtual sports games based on your target markets to fulfill the needs and interests of local players.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_games_d5bb9e612e.png?f=avif&resize=300x300&q=100",
+          image: "/pics/Lti9a6w6kxhn4f5pLzmfXbp2A.avif",
         },
         {
           title: "Flexibility",
           description:
             "Customise odds and event frequency according to your needs.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_settings_db96cbdf17.png?f=avif&resize=300x300&q=100",
+          image: "/pics/ajV81GDdOjC5Trivrzqp0dMpmoQ.avif",
         },
         {
           title: "New audience",
           description:
             "The short duration and instantly available results of virtual sports events fit the preferences of young, tech-centered punters that seek fast-paced entertainment.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_persons_2_98be9e9638.png?f=avif&resize=300x300&q=100",
+          image: "/pics/cSQqFEW1TEyyoTR93g09TmDZDQo.avif",
         },
         {
           title: "Conversion",
           description:
             "You can convert live sports bettors into virtual sports bettors, and vice versa, giving your platform a great cross-selling tool.",
-          image:
-            "https://static.slotegrator.pro/uploads/img_card_money_arrow_1de4f126d0.png?f=avif&resize=300x300&q=100",
+          image: "/pics/sportbet.png",
         },
       ],
     },
   },
-  
+
 };

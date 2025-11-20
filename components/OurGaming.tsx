@@ -41,7 +41,7 @@ export default function OurGamingProducts() {
           {
             title: "Sportegrator",
             description:
-              "A sports betting platform solution with live and virtual sports betting opportunities — a complete sportsbook platform.",
+              "A sports betting platform solution with live and virtual sports betting opportunities   a complete sportsbook platform.",
             image:
               "https://static.slotegrator.pro/uploads/sportsbook_1_2x_f5a85e9a8e.png?f=avif&resize=160x160&q=100",
             link: "/sportegrator",

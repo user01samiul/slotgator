@@ -1,14 +1,19 @@
 // app/game-providers/page.tsx
+'use client';
+
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Game Providers | Your Casino Platform",
-  description: "Explore our extensive collection of premium game providers",
-};
+import { useEffect, useState } from "react";
+import { FiGrid, FiArrowRight } from "react-icons/fi";
 
 const GameProvidersPage = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const providerLogos = [
     "https://timelesstech.io/sites/default/files/styles/icon_576x360_16_10_scaled_on_white_background/public/timeless-tech-game-providers-100hp-gaming-logo-2488.png?itok=sMcw2-aK",
     "https://timelesstech.io/sites/default/files/styles/icon_576x360_16_10_scaled_on_white_background/public/timless-tech-partners-1x2-gaming-logo-850.png?itok=I65J5hZ1",
@@ -104,55 +109,119 @@ const GameProvidersPage = () => {
     "https://timelesstech.io/sites/default/files/styles/icon_576x360_16_10_scaled_on_white_background/public/timeless-tech-game-providers-yoloplay-logo-2706.png?itok=Fkjw3NTV",
   ];
 
+  if (!isClient) return null;
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Page Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Our Premium Game Providers
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {`Explore our extensive collection of the world's leading game developers`}
-          </p>
+    <div className="min-h-screen bg-black overflow-hidden">
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950">
+        <div className="absolute inset-0 opacity-30">
+          <div
+            className="absolute inset-0"
+            style={{
+              background: 'radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(236, 72, 153, 0.3) 0%, transparent 50%)',
+              animation: 'pulse 8s ease-in-out infinite',
+            }}
+          />
         </div>
+      </div>
 
-        {/* Providers Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
-          {providerLogos.map((logo, index) => (
-            <div
-              key={index}
-              className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow flex items-center justify-center h-32"
-            >
-              <Image
-                src={logo}
-                alt={`Game provider ${index + 1}`}
-                width={200}
-                height={120}
-                className="object-contain h-full w-full"
-                unoptimized // Remove this if you set up proper image optimization config
-              />
+      {/* Animated particles */}
+      <div className="absolute inset-0 overflow-hidden">
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-1 h-1 bg-purple-400 rounded-full animate-float"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 5}s`,
+              animationDuration: `${5 + Math.random() * 10}s`,
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="relative z-10 py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          {/* Page Header */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-full border border-white/20 mb-8">
+              <FiGrid className="text-purple-400" />
+              <span className="text-sm font-semibold text-white">Game Integrations</span>
             </div>
-          ))}
-        </div>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
+              Our Premium Game Providers
+            </h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Explore our extensive collection of the world's leading game developers
+            </p>
+          </div>
 
-        {/* CTA Section */}
-        <div className="mt-16 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Ready to integrate these providers?
-          </h2>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact">
-              <button className="bg-[#FF2432] text-white hover:bg-[#E02030] px-8 py-3 rounded-md font-semibold transition-colors shadow-lg hover:shadow-xl">
-                Contact Us
-              </button>
-            </Link>
-            {/* <button className="border-2 border-[#FF2432] text-[#FF2432] hover:bg-[#FF2432]/10 px-8 py-3 rounded-md font-semibold transition-colors">
-              Request Demo
-            </button> */}
+          {/* Providers Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 mb-20">
+            {providerLogos.map((logo, index) => (
+              <div
+                key={index}
+                className="group relative bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-2xl p-4 border border-white/10 hover:border-white/20 transition-all duration-500 hover:-translate-y-2 flex items-center justify-center h-32"
+              >
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-20 blur-2xl transition-opacity duration-500" />
+                <Image
+                  src={logo}
+                  alt={`Game provider ${index + 1}`}
+                  width={200}
+                  height={120}
+                  className="object-contain h-full w-full relative z-10"
+                  unoptimized
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* CTA Section */}
+          <div className="relative">
+            <div className="group relative bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-3xl p-12 border border-white/10 hover:border-white/20 transition-all duration-500 text-center">
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-10 blur-2xl transition-opacity duration-500" />
+              <div className="relative">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                  Ready to integrate these providers?
+                </h2>
+                <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                  Get access to thousands of premium games from leading providers through our unified API
+                </p>
+                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                  <Link href="/contact">
+                    <button className="group relative px-10 py-5 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/50 overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <span className="relative flex items-center justify-center">
+                        Contact Us
+                        <FiArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes gradient {
+          0%, 100% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+          50% { transform: translateY(-20px) translateX(10px); opacity: 0.5; }
+        }
+        .animate-gradient {
+          animation: gradient 6s ease infinite;
+        }
+        .animate-float {
+          animation: float linear infinite;
+        }
+      `}</style>
     </div>
   );
 };

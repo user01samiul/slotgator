@@ -103,10 +103,7 @@ export default function AboutCompany() {
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground text-left"
         >
-          Slotgator, a leading software supplier and aggregator for online
-          casino and sportsbook operators, has been developing innovative business
-          solutions and client-oriented business services in the gambling industry
-          since 2012.
+          Slotgator delivers enterprise-grade casino platforms and comprehensive game aggregation services to iGaming operators worldwide. Since 2012, we&apos;ve powered successful casino launches through our unified API integration, connecting operators with premium gaming content, secure payment systems, and regulatory compliance solutions.
         </motion.p>
       </div>
 
