@@ -2,7 +2,6 @@
 
 import { SparklesIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import { motion, Variants } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { FaDice, FaCoins, FaChartLine } from "react-icons/fa";
 
@@ -73,7 +72,7 @@ export default function HeroContent() {
         >
           <SparklesIcon className="h-5 w-5 text-primary mr-2" />
           <h2 className="text-xs sm:text-sm font-semibold">
-            Casino Software Solutions
+            Enterprise iGaming Solutions
           </h2>
         </motion.div>
 
@@ -81,9 +80,9 @@ export default function HeroContent() {
           variants={childVariants}
           className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
         >
-          Ready-Made Online Casino Software &{" "}
+          Complete Online Casino Platform &{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-            Business Solutions
+            Gaming Aggregation Services
           </span>
         </motion.h1>
 
@@ -91,9 +90,7 @@ export default function HeroContent() {
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground max-w-md"
         >
-          Bespoke platform solutions for online casinos and sportsbooks, game
-          content integration, license acquisition, and more — everything your
-          online casino business needs.
+          Comprehensive casino platform solutions with integrated game aggregation from 180+ providers, advanced payment processing, and complete licensing support. Transform your iGaming vision into reality with our proven infrastructure.
         </motion.p>
 
         {/* Feature Icons */}
@@ -153,19 +150,21 @@ export default function HeroContent() {
         </motion.div>
       </div>
 
-      {/* Right Image */}
+      {/* Right Video */}
       <motion.div
         variants={imageVariants}
         className="lg:w-1/2 flex justify-center items-center mt-8 lg:mt-0 relative"
       >
-        <Image
-          src="/home/heroimage.avif"
-          alt="Casino platform illustration"
-          width={500}
-          height={500}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="rounded-lg select-none max-w-full h-auto relative z-10"
-          draggable={false}
-        />
+        >
+          <source src="/pics/Slotgator_ iGaming Innovators.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         {/* Floating decorative elements */}
         <motion.div 
           className="absolute -top-10 -left-10 w-32 h-32 bg-primary/10 rounded-full blur-xl z-0"

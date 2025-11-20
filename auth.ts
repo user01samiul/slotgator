@@ -10,6 +10,7 @@ import User from "./models/User.model";
 // inthis page user = admin actually
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  trustHost: true,
   providers: [
     // Google({
     //   clientId: process.env.GOOGLE_CLIENT_ID,

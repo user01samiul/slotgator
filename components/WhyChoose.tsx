@@ -90,8 +90,8 @@ export default function WhyChooseSlotegrator() {
           variants={childVariants}
           className="text-sm sm:text-base text-muted-foreground text-left"
         >
-          Slotgator offers everything an iGaming business — both online casinos
-          and sportsbooks — needs. We offer the best value for money on the
+          Slotgator offers everything an iGaming business   both online casinos
+          and sportsbooks   needs. We offer the best value for money on the
           market, providing modular and scalable solutions tailored to our
           clients’ objectives, delivered rapidly and efficiently, with ongoing
           support.

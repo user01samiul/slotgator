@@ -11,7 +11,7 @@ export async function DELETE(
     await connectDB();
         //protect
       const session = await auth();
-    
+
         if (!session?.user) {
           return NextResponse.json(
             { success: false, message: "request failed" },
